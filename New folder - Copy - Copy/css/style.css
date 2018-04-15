@@ -1,0 +1,58 @@
+.content{
+    position: relative;
+    width: 100%;
+    height: 760px;
+    background-image: url("../img/Free-Download-Windows-7-Nature-HD-Desktop.jpg")
+
+}
+.content .date{
+    display: inline-block;
+    position: absolute;
+    bottom: 30px;
+    left: 30px;
+    font-size: 45px;
+    color: white;
+}
+.account{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: none;
+}
+.account.active{
+    display: block;
+}
+.account .icon{
+    background-color: #8a8888;
+    border-radius: 100%;
+    width: 300px;
+}
+.account .icon i{
+    font-size: 10em;
+    color: white;
+    padding: 23%;
+    text-align: center;
+
+}
+.account .input{
+    position: relative;
+    border: 1px solid #8a8888;
+    /* border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px; */
+    border-radius: 5px;
+}
+.account .input input{
+    width: 88%;
+}
+.account .right{
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    background-color: transparent;
+    padding: 10px;
+    border: 1px solid #8a8888;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    color: #8a8888;
+}
